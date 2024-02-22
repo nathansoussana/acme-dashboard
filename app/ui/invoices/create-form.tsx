@@ -89,7 +89,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
           </legend>
           <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3">
             <div className="flex gap-4">
-              <div className="flex items-center" aria-describedby="amount-error">
+              <div className="flex items-center" aria-describedby="status-error">
                 <input
                   id="pending"
                   name="status"
